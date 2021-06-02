@@ -7,6 +7,6 @@ setuptools.setup(
     description='trimming the margins',
     author='Gakuto Furuya',
     url='https://github.com/gaato/wtrim',
-    packages=setuptools.find_packages(),
+    package_dir={'': 'wtrim'},
     python_requires='>=3.7',
 )
