@@ -10,4 +10,5 @@ setuptools.setup(
     packages=[''],
     package_dir={'': 'wtrim'},
     python_requires='>=3.7',
+    install_requires=open('requirements.txt').read().splitlines(),
 )
